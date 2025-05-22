@@ -17,57 +17,107 @@ This machine learning project focuses on predicting hospital readmission rates f
 
 ## Dataset
 The project utilizes a rich healthcare dataset (diabetic_data.csv) containing:
+
 Patient demographics (age, gender, race)
+
 Admission details
+
 Medical history
+
 Diagnostic information
+
 Laboratory test results
+
 Medication data
+
 Supporting mapping files:
+
 admission_type_mapping.csv
+
 admission_source_mapping.csv
+
 discharge_disposition_mapping.csv
-Implementation Details
-1. Data Preprocessing Pipeline
+
+## Implementation Details
+
+**1. Data Preprocessing Pipeline**
 Feature engineering and selection
+
 Handling missing values using SimpleImputer
+
 Categorical encoding using OneHotEncoder and OrdinalEncoder
+
 Numerical feature scaling with StandardScaler
+
 Custom preprocessing pipeline using scikit-learn's Pipeline and ColumnTransformer
-2. Machine Learning Models
+
+**2. Machine Learning Models**
 The project implements several machine learning algorithms:
+
 Logistic Regression (baseline model)
+
 Advanced ensemble methods
+
 Model evaluation using classification metrics
+
 Cross-validation for robust performance assessment
-3. Feature Importance Analysis
+
+**3. Feature Importance Analysis**
 Statistical analysis of feature correlations
+
 Feature importance ranking
+
 Visualization of key predictive factors
-Model Performance
+
+## Model Performance
+
 The model evaluates performance using:
+
 Classification accuracy
+
 Precision and recall metrics
+
 ROC-AUC score
+
 Confusion matrix analysis
+
 Project Structure
+
 Apply
+
 Usage
+
 Clone the repository
+
 Install required dependencies
+
 Run the Jupyter notebook Final-project.ipynb
+
 Follow the step-by-step implementation and analysis
-Future Improvements
+
+## Future Improvements
 Implementation of deep learning models
+
 Feature engineering optimization
+
 Hyperparameter tuning
+
 Integration with deployment frameworks
+
 Real-time prediction capabilities
-Requirements
+
+## Requirements
+
 Python 3.x
+
 pandas
+
 numpy
+
 scikit-learn
+
 matplotlib
+
 seaborn
+
 jupyter
