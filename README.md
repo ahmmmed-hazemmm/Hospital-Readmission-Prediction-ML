@@ -30,7 +30,7 @@ Laboratory test results
 
 Medication data
 
-Supporting mapping files:
+**Supporting mapping files:**
 
 admission_type_mapping.csv
 
@@ -41,6 +41,7 @@ discharge_disposition_mapping.csv
 ## Implementation Details
 
 **1. Data Preprocessing Pipeline**
+
 Feature engineering and selection
 
 Handling missing values using SimpleImputer
@@ -52,6 +53,7 @@ Numerical feature scaling with StandardScaler
 Custom preprocessing pipeline using scikit-learn's Pipeline and ColumnTransformer
 
 **2. Machine Learning Models**
+
 The project implements several machine learning algorithms:
 
 Logistic Regression (baseline model)
@@ -63,6 +65,7 @@ Model evaluation using classification metrics
 Cross-validation for robust performance assessment
 
 **3. Feature Importance Analysis**
+
 Statistical analysis of feature correlations
 
 Feature importance ranking
@@ -71,7 +74,7 @@ Visualization of key predictive factors
 
 ## Model Performance
 
-The model evaluates performance using:
+**The model evaluates performance using:**
 
 Classification accuracy
 
@@ -81,11 +84,17 @@ ROC-AUC score
 
 Confusion matrix analysis
 
-Project Structure
+## Project Structure
+Hospital-Readmission-Prediction/
+├── Final-project.ipynb          # Main implementation notebook
+├── diabetic_data.csv           # Primary dataset
+├── admission_type_mapping.csv   # Admission type reference data
+├── admission_source_mapping.csv # Admission source reference data
+└── discharge_disposition_mapping.csv # Discharge disposition reference data
 
 Apply
 
-Usage
+## Usage
 
 Clone the repository
 
