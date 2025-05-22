@@ -17,7 +17,8 @@ This machine learning project focuses on predicting hospital readmission rates f
 **joblib:** Model persistence
 
 ## Dataset
-The project utilizes a rich healthcare dataset (diabetic_data.csv) containing:
+
+**The project utilizes a rich healthcare dataset (diabetic_data.csv) containing:**
 
 Patient demographics (age, gender, race)
 
