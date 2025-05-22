@@ -1,15 +1,21 @@
 # Hospital Readmission Prediction for Diabetic Patients
 ## Project Overview
 This machine learning project focuses on predicting hospital readmission rates for diabetic patients using a comprehensive dataset of hospital encounters. The model aims to identify patients at high risk of readmission, enabling healthcare providers to implement targeted interventions and improve patient care outcomes.
-Technical Stack
-Programming Language: Python 3.x
-Core Libraries:
-pandas: Data manipulation and analysis
-scikit-learn: Machine learning implementations
-numpy: Numerical computations
-matplotlib & seaborn: Data visualization
-joblib: Model persistence
-Dataset
+## Technical Stack
+**Programming Language:** Python 3.x
+**Core Libraries:**
+
+**pandas:** Data manipulation and analysis
+
+**scikit-learn:** Machine learning implementations
+
+**numpy:** Numerical computations
+
+**matplotlib & seaborn:** Data visualization
+
+**joblib:** Model persistence
+
+## Dataset
 The project utilizes a rich healthcare dataset (diabetic_data.csv) containing:
 Patient demographics (age, gender, race)
 Admission details
