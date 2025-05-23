@@ -86,26 +86,6 @@ ROC-AUC score
 
 Confusion matrix analysis
 
-## Project Structure
-Hospital-Readmission-Prediction/
-├── Final-project.ipynb          # Main implementation notebook
-├── diabetic_data.csv           # Primary dataset
-├── admission_type_mapping.csv   # Admission type reference data
-├── admission_source_mapping.csv # Admission source reference data
-└── discharge_disposition_mapping.csv # Discharge disposition reference data
-
-Apply
-
-## Usage
-
-Clone the repository
-
-Install required dependencies
-
-Run the Jupyter notebook Final-project.ipynb
-
-Follow the step-by-step implementation and analysis
-
 ## Future Improvements
 Implementation of deep learning models
 
